@@ -27,17 +27,17 @@ public class PewnApi extends DefaultApi20 {
 
 	@Override
 	public String getAccessTokenEndpoint() {
-		return "http://localhost:8080/api/v1/oauth/token/";
+		return "https://pewn.de/api/v1/oauth/token/";
 	}
 
 	@Override
 	protected String getAuthorizationBaseUrl() {
-		return "http://localhost:8080/auth/";
+		return "https://pewn.de/auth/";
 	}
 
 	@Override
 	public String getRefreshTokenEndpoint() {
-		return "http://localhost:8080/api/v1/oauth/token/";
+		return "https://pewn.de/api/v1/oauth/token/";
 	}
 
 	@Override
